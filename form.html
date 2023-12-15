@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Application Form</h1>
+      <a href="/index.html">Go to User Details instead</a>
+      <span class="sub-heading">Fill in your details</span>
+
+      <form action="submit" id="form">
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">First Name</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter first name"
+              minlength="5"
+            />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">Last Name</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter last name"
+              minlength="5"
+            />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">Gender</span>
+            <input type="text" required placeholder="Enter gender" />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">Date of birth</span>
+            <input type="date" required />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">Email Address</span>
+            <input type="email" required placeholder="Enter email address" />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">Education Level</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter education level"
+              minlength="6"
+            />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">Country</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter your country"
+              minlength="4"
+            />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">State/City of Residence</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter your state of residence"
+              minlength="5"
+            />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">Employment status</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter employment status"
+              minlength="6"
+            />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">Phone Number</span>
+            <input
+              type="number"
+              required
+              placeholder="Enter phone number"
+              minlength="11"
+            />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">Choose School</span>
+            <input
+              type="text"
+              required
+              placeholder="Enter your school of choice"
+              minlength="4"
+            />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title">Choose Course</span>
+            <input type="text" required placeholder="Choose your course" />
+          </label>
+        </div>
+
+        <div class="pair-inputs">
+          <label class="input-container">
+            <span class="input-title">How did you hear about us?</span>
+            <input
+              type="text"
+              required
+              placeholder="e.g. Facebook, Twitter..."
+            />
+          </label>
+
+          <label class="input-container">
+            <span class="input-title"
+              >Scholarship/Discount Code (optional)</span
+            >
+            <input type="text" required placeholder="Enter discount code" />
+          </label>
+        </div>
+      </form>
+      <span class="disclaimer"
+        >By clicking Proceed, I agree to Terms of Use and acknowledge that I
+        have read the Privacy Policy.</span
+      >
+      <button class="submit" form="form">Proceed</button>
+    </main>
+  </body>
+</html>
